@@ -1,0 +1,158 @@
+PODS:
+  - FXBlurView (1.6.4)
+  - JRSwizzle (1.0)
+  - MercadoPagoSDK (4.32.4):
+    - MercadoPagoSDK/Default (= 4.32.4)
+    - MLBusinessComponents (~> 1.0)
+    - MLCardForm (~> 0.1)
+  - MercadoPagoSDK/Default (4.32.4):
+    - MLBusinessComponents (~> 1.0)
+    - MLCardDrawer (~> 1.0)
+    - MLCardForm (~> 0.1)
+    - MLUI (~> 5.0)
+  - MLBusinessComponents (1.8.3):
+    - MLBusinessComponents/Default (= 1.8.3)
+    - MLUI (~> 5.0)
+  - MLBusinessComponents/Default (1.8.3):
+    - MLUI (~> 5.0)
+  - MLCardDrawer (1.4.5)
+  - MLCardForm (0.7.9):
+    - MLCardDrawer (~> 1.0)
+    - MLCardForm/Default (= 0.7.9)
+    - MLUI (~> 5.0)
+  - MLCardForm/Default (0.7.9):
+    - MLCardDrawer (~> 1.0)
+    - MLUI (~> 5.0)
+  - MLUI (5.18.0):
+    - MLUI/ActionButton (= 5.18.0)
+    - MLUI/Core (= 5.18.0)
+    - MLUI/Helpers (= 5.18.0)
+    - MLUI/MLButton (= 5.18.0)
+    - MLUI/MLCheckBox (= 5.18.0)
+    - MLUI/MLColorPalette (= 5.18.0)
+    - MLUI/MLContextualMenu (= 5.18.0)
+    - MLUI/MLFonts (= 5.18.0)
+    - MLUI/MLFullscreenModal (= 5.18.0)
+    - MLUI/MLGenericErrorView (= 5.18.0)
+    - MLUI/MLHeader (= 5.18.0)
+    - MLUI/MLHtml (= 5.18.0)
+    - MLUI/MLModal (= 5.18.0)
+    - MLUI/MLRadioButton (= 5.18.0)
+    - MLUI/MLSnackBar (= 5.18.0)
+    - MLUI/MLSpacing (= 5.18.0)
+    - MLUI/MLSpinner (= 5.18.0)
+    - MLUI/MLSwitch (= 5.18.0)
+    - MLUI/MLTextView (= 5.18.0)
+    - MLUI/MLTitledMultiLineTextField (= 5.18.0)
+    - MLUI/MLTitledSingleLineTextField (= 5.18.0)
+    - MLUI/PriceView (= 5.18.0)
+    - MLUI/SnackBarView (= 5.18.0)
+    - MLUI/StyleSheet (= 5.18.0)
+  - MLUI/ActionButton (5.18.0):
+    - MLUI/Core
+  - MLUI/Core (5.18.0):
+    - MLUI/MLFonts
+  - MLUI/Helpers (5.18.0)
+  - MLUI/MLButton (5.18.0):
+    - MLUI/Core
+    - MLUI/MLColorPalette
+    - MLUI/MLFonts
+    - MLUI/MLSpinner
+    - MLUI/StyleSheet
+  - MLUI/MLCheckBox (5.18.0):
+    - MLUI/MLColorPalette
+    - MLUI/StyleSheet
+  - MLUI/MLColorPalette (5.18.0)
+  - MLUI/MLContextualMenu (5.18.0):
+    - MLUI/MLColorPalette
+    - MLUI/MLFonts
+  - MLUI/MLFonts (5.18.0):
+    - JRSwizzle (= 1.0)
+    - MLUI/Helpers
+    - MLUI/StyleSheet
+  - MLUI/MLFullscreenModal (5.18.0):
+    - FXBlurView (~> 1.6)
+    - MLUI/Core
+    - MLUI/MLButton
+    - MLUI/MLColorPalette
+    - MLUI/MLFonts
+    - MLUI/MLHeader
+    - MLUI/StyleSheet
+  - MLUI/MLGenericErrorView (5.18.0):
+    - MLUI/MLButton
+    - MLUI/MLColorPalette
+    - MLUI/MLSpacing
+  - MLUI/MLHeader (5.18.0):
+    - MLUI/MLColorPalette
+    - MLUI/StyleSheet
+  - MLUI/MLHtml (5.18.0):
+    - MLUI/MLFonts
+  - MLUI/MLModal (5.18.0):
+    - FXBlurView (~> 1.6)
+    - MLUI/Core
+    - MLUI/MLButton
+    - MLUI/MLColorPalette
+    - MLUI/MLFonts
+    - MLUI/StyleSheet
+  - MLUI/MLRadioButton (5.18.0):
+    - MLUI/StyleSheet
+  - MLUI/MLSnackBar (5.18.0):
+    - MLUI/Helpers
+    - MLUI/MLButton
+    - MLUI/MLColorPalette
+    - MLUI/MLFonts
+  - MLUI/MLSpacing (5.18.0):
+    - JRSwizzle (= 1.0)
+    - MLUI/MLFonts
+  - MLUI/MLSpinner (5.18.0):
+    - MLUI/MLColorPalette
+    - MLUI/MLFonts
+    - MLUI/StyleSheet
+  - MLUI/MLSwitch (5.18.0):
+    - MLUI/Helpers
+    - MLUI/MLColorPalette
+  - MLUI/MLTextView (5.18.0):
+    - MLUI/MLColorPalette
+    - MLUI/MLFonts
+  - MLUI/MLTitledMultiLineTextField (5.18.0):
+    - MLUI/MLColorPalette
+    - MLUI/MLFonts
+    - MLUI/MLTitledSingleLineTextField
+    - MLUI/StyleSheet
+  - MLUI/MLTitledSingleLineTextField (5.18.0):
+    - MLUI/MLColorPalette
+    - MLUI/MLFonts
+    - MLUI/StyleSheet
+  - MLUI/PriceView (5.18.0):
+    - MLUI/Core
+    - MLUI/MLFonts
+  - MLUI/SnackBarView (5.18.0):
+    - MLUI/Helpers
+    - MLUI/MLFonts
+  - MLUI/StyleSheet (5.18.0)
+
+DEPENDENCIES:
+  - MercadoPagoSDK (~> 4.32)
+
+SPEC REPOS:
+  trunk:
+    - FXBlurView
+    - JRSwizzle
+    - MercadoPagoSDK
+    - MLBusinessComponents
+    - MLCardDrawer
+    - MLCardForm
+    - MLUI
+
+SPEC CHECKSUMS:
+  FXBlurView: db786c2561cb49a09ae98407f52460096ab8a44f
+  JRSwizzle: dd5ead5d913a0f29e7f558200165849f006bb1e3
+  MercadoPagoSDK: 634fc8a9fe7f99f4d73506659c68cdbb885407fc
+  MLBusinessComponents: 67221c3391e635d7ef462baa1581be2636cf5e13
+  MLCardDrawer: 3ec7c3e60e811af3a8e20fdc7849b4bf1d1942ed
+  MLCardForm: 977f5ad813aae270951ed61c3d58ace0c8ddd600
+  MLUI: f8f94a4ea53e8e3a127adab0a218af9401328ed7
+
+PODFILE CHECKSUM: 009d1d38a70ef8adf6fa89ea154d82a1d13e0f8e
+
+COCOAPODS: 1.9.1

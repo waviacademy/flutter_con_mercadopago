@@ -1,0 +1,18 @@
+
+Plugin Mercado Pago:
+https://pub.dev/packages/mercadopago_sdk
+
+
+Mercado Pago iOS
+https://cocoapods.org/pods/MercadoPagoSDK
+
+iOS Antes de Pod Install
+export LANG=en_US.UTF-8
+
+Después, hay que ir a:
+$HOME/Library/Application Support/Code/User/settings.json
+
+Y agregar:
+    "dart.env": {
+        "LANG": "en_US.UTF-8"
+    }, 
